@@ -32,6 +32,10 @@
 }
 
 @media screen and (max-width:1090px) {
+    header {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
     .para4 h1 {
         margin-top: 19px;
         font-size: 20px;
@@ -80,6 +84,9 @@
 @media screen and (max-width:850px) {
     section {
         display: none;
+    }
+    .text {
+        margin-top: 160px;
     }
     .top {
         width: 101%;
@@ -332,6 +339,9 @@
     .book {
         padding-bottom: 169px;
     }
+    .team .sales h1 {
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width:530px) {
@@ -450,6 +460,18 @@
     .ipbox input {
         width: 70%;
     }
+    .pic3line .p2 .t2 {
+        position: absolute;
+        top: 7%;
+        left: 5%;
+        font-size: 1.2em;
+    }
+    .pic1line .p1 .t6 {
+        top: 100px;
+    }
+    .pic5line .p3 .t3 {
+        top: 65%;
+    }
 }
 
 @media screen and (max-width:336px) {
@@ -461,5 +483,8 @@
 @media screen and (max-width:300px) {
     .book {
         padding-bottom: 200px;
+    }
+    .topr .topr2 p {
+        font-size: 10px;
     }
 }
