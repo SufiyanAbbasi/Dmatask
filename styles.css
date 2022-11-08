@@ -14,8 +14,9 @@ header {
 
 .topr i {
     color: #e0e0e0;
+    font-size: x-large;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 3px;
     display: none;
 }
 
