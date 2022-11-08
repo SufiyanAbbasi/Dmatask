@@ -81,6 +81,9 @@
     section {
         display: none;
     }
+    .topr i {
+        display: block;
+    }
     .text {
         margin-top: 160px;
     }
@@ -464,7 +467,7 @@
     }
     .pic3line .p2 .t2 {
         position: absolute;
-        top: 7%;
+        top: 1%;
         left: 5%;
         font-size: 1.2em;
     }
@@ -473,6 +476,9 @@
     }
     .pic5line .p3 .t3 {
         top: 65%;
+    }
+    .pic5line .p2 .t2 {
+        font-size: 1.3em;
     }
 }
 
