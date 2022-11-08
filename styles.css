@@ -692,7 +692,12 @@ section {
 }
 
 .trust a img {
+    filter: grayscale(100);
     width: 100px;
+}
+
+.trust a img:hover {
+    filter: grayscale(0);
 }
 
 
