@@ -34,10 +34,6 @@ body {
     overflow-x: hidden;
 }
 
-section {
-    margin-top: 100px;
-}
-
 body {
     /* max-width: 1400px; */
     margin: 0px auto;
@@ -77,15 +73,17 @@ body {
 }
 
 .top .topr1 img {
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     cursor: pointer;
+    margin-top: 3px;
 }
 
 .topr .topr1 p {
     color: white;
     margin-left: 7px;
-    font-weight: 800;
+    font-weight: 700;
+    font-family: system-ui;
 }
 
 .topr2 {
@@ -116,14 +114,15 @@ section ul li {
 
 section {
     padding: 18px 0px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin-top: 80px;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
 }
 
 .list {
     display: flex;
     max-width: 1400px;
     margin: auto;
-    margin-top: -15px;
+    /* margin-top: -15px; */
     justify-content: space-evenly;
 }
 
@@ -143,12 +142,13 @@ section {
     color: #0066BA;
     letter-spacing: 8px;
     font-size: 14px;
+    font-family: system-ui;
     line-height: 18px;
 }
 
 .text h1 {
     color: #181e4e;
-    font-size: 3.4rem;
+    font-size: 60px;
     font-weight: 800;
     letter-spacing: 2px;
     /* letter-spacing: 2px; */
@@ -193,13 +193,13 @@ section {
 }
 
 .para4 h1 {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #D1D1D1;
     border-left: 6px solid #D1D1D1;
     margin-top: 20px;
     font-size: 28px;
     width: 118%;
     font-weight: 500;
-    line-height: 42px;
+    line-height: 48px;
     padding-left: 10px;
     /* line-height: 50px; */
 }
@@ -264,7 +264,8 @@ section {
     bottom: 20px;
     left: 20px;
     color: white;
-    font-size: 28px;
+    font-size: 22px;
+    font-family: Lato, sans-serif;
     font-weight: bolder;
 }
 
@@ -273,8 +274,9 @@ section {
     top: 50px;
     left: 20px;
     color: white;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bolder;
+    font-family: Lato, sans-serif;
 }
 
 .pic1line .p1 .t1 p {
@@ -283,7 +285,7 @@ section {
 }
 
 .pic1line .p1 .t6 p {
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 16px;
 }
 
@@ -302,16 +304,18 @@ section {
 
 .p1man .happy {
     position: absolute;
-    bottom: 40px;
     left: 20px;
-    font-size: 30px;
+    bottom: 35px;
+    font-family: Lato, sans-serif;
+    font-size: 24px;
     font-weight: bolder;
     color: white;
 }
 
 .p1man .happy p {
+    font-family: Lato, sans-serif;
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .pic2line {
@@ -353,6 +357,7 @@ section {
     color: white;
     width: 80%;
     line-height: 30px;
+    font-family: Lato, sans-serif;
 }
 
 .pic2line .p2 .t2 p {
@@ -403,6 +408,7 @@ section {
     font-size: 1.4em;
     color: white;
     width: 60%;
+    font-family: Lato, sans-serif;
 }
 
 .pic3line .p2 .t2 p {
@@ -414,9 +420,10 @@ section {
     position: absolute;
     top: 0%;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.6em;
     top: 60%;
     left: 5%;
+    font-family: Lato, sans-serif;
 }
 
 
@@ -456,6 +463,7 @@ section {
 }
 
 .pic5line .p2 .t2 {
+    font-family: Lato, sans-serif;
     position: absolute;
     top: 30%;
     left: 5%;
@@ -470,13 +478,14 @@ section {
 }
 
 .pic5line .p3 .t3 {
+    left: 5%;
+    width: 80%;
     position: absolute;
     top: 0%;
     color: white;
     font-size: 1.6em;
     top: 60%;
-    left: 5%;
-    width: 70%;
+    font-family: Lato, sans-serif;
 }
 
 .pic5line .p3 .t3 p {
@@ -507,6 +516,7 @@ section {
 .strength .num p {
     color: #0066BA;
     font-weight: bold;
+    font-family: DM Sans, sans-serif;
     letter-spacing: 2px;
 }
 
@@ -537,6 +547,7 @@ section {
 
 .ipbox input {
     width: 20%;
+    border: 1px solid #D1D1D1;
     padding-top: 12px;
     margin-left: 15px;
     padding-bottom: 12px;
@@ -551,10 +562,10 @@ section {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    border: 1px solid gray;
+    border: 1px solid #D1D1D1;
     background: white;
     margin-top: 50px;
-    width: 42%;
+    width: 43%;
     height: 100px;
 }
 
@@ -565,17 +576,18 @@ section {
 .or .link input {
     padding: 8px 20px;
     width: 150px;
+    border: 1px solid #D1D1D1;
 }
 
 .or .or1 {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
-    background-color: gray;
-    margin-top: 15px;
+    background-color: #D1D1D1;
+    margin-top: 29px;
 }
 
 .or .or1 h3 {
@@ -603,7 +615,9 @@ section {
     height: 50px;
     margin: auto;
     margin-top: 40px;
+    font-family: DM Sans, sans-serif;
     background-color: #ffc145;
+    font-size: small;
 }
 
 .team .sales {
@@ -613,6 +627,8 @@ section {
 
 .team .sales h3 {
     color: #0066BA;
+    font-size: 14px;
+    letter-spacing: 1px;
     font-family: Lato, sans-serif;
 }
 
@@ -644,7 +660,9 @@ section {
     border: 1px solid #0066BA;
     width: 130px;
     margin-top: 20px;
-    padding: 10px 5px;
+    padding: 8px 3px;
+    font-size: 10px;
+    font-family: DM Sans, sans-serif;
 }
 
 .people3 .call .schedule span {
@@ -660,7 +678,7 @@ section {
     width: 85%;
     height: 560px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     /* margin: 10px 70px; */
     background-color: #181e4e;
@@ -761,10 +779,11 @@ section {
 
 .lists .whatwedo ul h3 {
     color: #181e4e;
+    font-family: Lato, sans-serif;
 }
 
 .lists .whatwedo ul li {
-    padding-top: 10px;
+    padding-top: 12px;
     list-style: none;
     font-size: small;
     color: #181e4e;

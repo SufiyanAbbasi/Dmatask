@@ -75,6 +75,11 @@
     .vs {
         text-align: center;
     }
+    .para4 h1 {
+        width: 100%;
+        text-align: start;
+        font-weight: 600;
+    }
 }
 
 @media screen and (max-width:850px) {
@@ -379,6 +384,13 @@
         font-size: small;
         padding: 10px 5px;
     }
+    .pic3line .p2 .t2 {
+        top: 3%;
+        left: 5%;
+        font-size: 1.3em;
+        color: white;
+        width: 60%;
+    }
 }
 
 @media screen and (max-width:472px) {
@@ -467,6 +479,19 @@
         font-size: 1.7em;
         margin-top: 15px;
     }
+    .pic2line .p2 .t2 {
+        top: 4%;
+        left: 5%;
+        font-size: 1.4em;
+        width: 90%;
+        line-height: 28px;
+    }
+    .pic1line .p1 .t6 {
+        top: 90px;
+    }
+    .pic5line .p2 .t2 {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:350px) {
@@ -497,11 +522,17 @@
     .topr {
         margin-right: -10px;
     }
+    .para4 h1 {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width:336px) {
     .book {
         padding-bottom: 180px;
+    }
+    .para4 h1 {
+        font-size: 15px;
     }
 }
 
@@ -511,5 +542,8 @@
     }
     .topr .topr2 p {
         font-size: 10px;
+    }
+    .para4 h1 {
+        font-size: 14px;
     }
 }
