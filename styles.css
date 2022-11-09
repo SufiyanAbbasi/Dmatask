@@ -73,6 +73,7 @@ body {
     display: flex;
     margin-top: 10px;
     cursor: pointer;
+    margin-right: 15px;
 }
 
 .top .topr1 img {

@@ -170,6 +170,9 @@
     .lists .whatwedo {
         margin-left: 30px;
     }
+    .topr .topr1 {
+        display: none;
+    }
 }
 
 @media screen and (max-width:775px) {
@@ -284,9 +287,6 @@
         padding-bottom: 265px;
     }
     .topr1 img {
-        display: none;
-    }
-    .topr1 p {
         display: none;
     }
     .trust a img {
