@@ -12,10 +12,20 @@ header {
     z-index: 999;
 }
 
+.totalbody {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.allheader {
+    max-width: 100%;
+    background-color: #181e4e;
+}
+
 .topr i {
     color: #e0e0e0;
     font-size: x-large;
-    margin-left: 10px;
+    margin-left: 3px;
     margin-top: 3px;
     display: none;
 }
@@ -29,20 +39,23 @@ section {
 }
 
 body {
-    max-width: 1400px;
+    /* max-width: 1400px; */
     margin: 0px auto;
 }
 
 .top {
     background-color: #181e4e;
     height: 80px;
+    margin: auto;
+    max-width: 100%;
 }
 
 .topu {
     /* border: 1px solid white; */
     display: flex;
-    padding-top: 20px;
-    margin: 0px 50px;
+    padding: 20px 20px 20px 10px;
+    margin: auto;
+    max-width: 1400px;
 }
 
 .topl {
@@ -107,6 +120,8 @@ section {
 
 .list {
     display: flex;
+    max-width: 1400px;
+    margin: auto;
     justify-content: space-evenly;
 }
 
@@ -465,12 +480,17 @@ section {
 
 /*strength*/
 
-.strength {
-    margin: auto;
-    /* margin-top: 100px; */
+.outstrength {
+    max-width: 100%;
     background-color: rgb(245 245 245);
+}
+
+.strength {
+    /* margin-top: 100px; */
+    margin: auto;
     text-align: center;
     padding-bottom: 70px;
+    max-width: 1400px;
 }
 
 .strength .num {

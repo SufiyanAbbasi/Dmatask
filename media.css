@@ -375,6 +375,10 @@
     .twobook .booktext h2 {
         font-size: 2.5em;
     }
+    .topr .topr2 p {
+        font-size: small;
+        padding: 10px 5px;
+    }
 }
 
 @media screen and (max-width:472px) {
@@ -383,6 +387,9 @@
     }
     .text h1 {
         font-size: 1.8rem;
+    }
+    .topr .topr2 p {
+        font-size: 10px;
     }
 }
 
@@ -400,6 +407,7 @@
     }
     .topr .topr2 p {
         font-size: 12px;
+        padding: 10px 3px;
     }
     .topr {
         margin-right: 20px;
@@ -479,6 +487,9 @@
     }
     .pic5line .p2 .t2 {
         font-size: 1.3em;
+    }
+    .topr .topr2 p {
+        font-size: 9px;
     }
 }
 
